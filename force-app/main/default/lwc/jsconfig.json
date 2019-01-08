@@ -1,0 +1,66 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/account-list": [
+                "AccountList/AccountList.js"
+            ],
+            "c/account-list-item": [
+                "accountListItem/accountListItem.js"
+            ],
+            "c/contact-list": [
+                "ContactList/ContactList.js"
+            ],
+            "c/contact-list-item": [
+                "ContactListItem/ContactListItem.js"
+            ],
+            "c/contact-tile": [
+                "ContactTile/ContactTile.js"
+            ],
+            "c/create-quick-contact": [
+                "createQuickContact/createQuickContact.js"
+            ],
+            "c/custom-contact-list": [
+                "CustomContactList/CustomContactList.js"
+            ],
+            "c/custom-event": [
+                "CustomEvent/CustomEvent.js"
+            ],
+            "c/custom-lookup": [
+                "customLookup/customLookup.js"
+            ],
+            "c/error-pannel": [
+                "errorPannel/errorPannel.js"
+            ],
+            "c/hellow-world": [
+                "hellowWorld/hellowWorld.js"
+            ],
+            "c/my-collection-lwc": [
+                "myCollectionLWC/myCollectionLWC.js"
+            ],
+            "c/new-account": [
+                "newAccount/newAccount.js"
+            ],
+            "c/new-contact": [
+                "newContact/newContact.js"
+            ],
+            "c/record-list": [
+                "recordList/recordList.js"
+            ],
+            "c/resource-demo": [
+                "resourceDemo/resourceDemo.js"
+            ],
+            "c/search-component": [
+                "searchComponent/searchComponent.js"
+            ],
+            "c/ui-record-api": [
+                "UIRecordAPI/UIRecordAPI.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ]
+}

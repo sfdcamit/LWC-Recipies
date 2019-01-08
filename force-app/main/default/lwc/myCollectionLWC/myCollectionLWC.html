@@ -1,0 +1,26 @@
+<template>
+    
+    <lightning-card title="Map in LWC" icon-name="custom:custom10">
+        <template if:true={error}>
+            <template if:true={error.details}>
+                <template if:true={error.details.body} >
+                    <p style="color:red;">{error.details.body.message}</p>
+                </template>
+            </template>
+        </template>
+        <template if:true={mapdata} >
+            <template for:each={mapdata} for:item="item">
+                <p key={item.key}>
+                    <lightning-layout>
+                        <lightning-layout-item padding="around-small">
+                            {item.key}
+                        </lightning-layout-item>
+                        <lightning-layout-item padding="around-small">
+                            {item.value}
+                        </lightning-layout-item>
+                    </lightning-layout>
+                </p>
+            </template>
+        </template>
+    </lightning-card>
+</template>

@@ -1,0 +1,24 @@
+<template>
+    <div>
+        <h1>Custom Event Demo</h1>
+        {objectApiName}
+        {recordId}
+    </div>
+    <div>
+        <template if:true={contacts.data}>
+                <lightning-layout vertical-align="center">
+                    <lightning-layout-item padding="around-small">
+                        <template for:each={contacts.data} for:item="item" for:index="index">
+                            <p key={item.Id}>{item.Name}</p>
+                            <lightning-formatted-name key={item.Id} >
+                                {item.Name}
+                            </lightning-formatted-name>
+                        </template>
+                    </lightning-layout-item>
+                </lightning-layout>
+        </template>
+        <div>
+            <h1>Select Contact ID => {contactId}</h1>
+        </div>
+    </div>
+</template>

@@ -1,0 +1,34 @@
+<template>
+    <div>
+        <template if:false={selectedAccount}>
+            <c-search-component onchange={handleOnChange} ></c-search-component>
+        </template>
+    </div>
+    <template if:true={error}>
+        <p style="color:red;"> 
+            Error while fetching the account List <strong>{error}</strong>
+            <c-error-pannel errors={error} ></c-error-pannel>
+        </p>
+    </template>
+    <template if:true={accounts}>
+        <lightning-layout>
+            <lightning-layout-item>
+                <template if:false={selectedAccount}>
+                    <template for:each={accounts} for:item="account" for:index="index">
+                        <c-account-list-item key={account.Id}
+                                            account={account} 
+                                            onselect={handleSelectA} >
+                        </c-account-list-item>
+                    </template>
+                </template>
+            </lightning-layout-item>
+            <lightning-layout-item>
+                <template if:true={selectedAccount}>
+                    <lightning-pill label={selectedAccount.Name} onremove={handleRemove}>
+                        <lightning-icon icon-name="standard:account"></lightning-icon>
+                    </lightning-pill>
+                </template>
+            </lightning-layout-item>
+        </lightning-layout>
+    </template>
+</template>

@@ -1,0 +1,31 @@
+<template>
+    <lightning-card title="Resource Demo" icon-name="custom:custom66">
+         <lightning-layout vertical-align="center" multiple-rows="true" >
+            <lightning-layout-item padding="around-small" size="6">
+                <p>
+                    {label.salesforceDesc}
+                </p>
+                    <img src={label.trailheadlogo} alt="trailhead logo" />
+                <p>
+                    urrent UserId : {label.userId}
+                </p>
+                <p>
+                    {label.lang}
+                </p>
+                <p>
+                    {label.locale}
+                </p>
+                <p>
+                    {label.currency}
+                </p>
+                <p>
+                    {label.Account_Object.objectApiName} <br/>
+                    {label.Account_Object.Name}
+                </p>
+                <lightning-button label="Show Prop" onclick={showProp} ></lightning-button>
+            </lightning-layout-item>
+            
+         </lightning-layout>
+    </lightning-card>
+    
+</template>

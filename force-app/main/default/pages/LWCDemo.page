@@ -1,0 +1,20 @@
+<apex:page>
+<!-- Begin Default Content REMOVE THIS -->
+<h1>Congratulations</h1>
+This is your new Page
+<!-- End Default Content REMOVE THIS -->
+<apex:includeLightning>
+
+</apex:includeLightning>
+<div id="lwc"></div>
+<script>
+    $Lightning.use("c:TestApplicationLWC", function() {
+      $Lightning.createComponent("c:LWCCompose",
+      {  },
+      "lwc",
+      function(cmp) {
+            console.log(' LWC Created .... ');
+      });
+    });
+</script>
+</apex:page>

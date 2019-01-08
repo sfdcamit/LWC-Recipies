@@ -1,0 +1,29 @@
+<template>
+    <lightning-input label="Search Contact" value={searchKey} onchange={handleOnchange} >
+
+    </lightning-input>
+    <p> <string> Select Contact Id => {index} </string></p>
+    <p>
+        <lightning-button label="navigateToContact" onclick={navigateToContact}
+        variant="brand" class="slds-m-right_x-small" ></lightning-button>
+        <lightning-button label="navigateToEdit" onclick={navigateToEdit}
+        variant="brand" ></lightning-button>
+    </p>
+
+    <template if:true={contacts}>
+        
+            <template for:each={contacts} for:item="item" for:index="index">
+        <lightning-layout vertical-align="center" key={item.Email}  multiple-rows="true">
+                <lightning-layout-item  key={item.Id} size="1">
+                    <lightning-icon icon-name="standard:contact" size="small"></lightning-icon>
+                </lightning-layout-item>
+                <lightning-layout-item key={item.Id} size="1">
+                    <lightning-pill name={item.Id} label={item.Name} id={item.Id} 
+                                onclick={handleSelect} onremove={handleRemove}>
+                    </lightning-pill>
+                </lightning-layout-item>
+            </lightning-layout>
+            </template>
+        
+    </template>
+</template>

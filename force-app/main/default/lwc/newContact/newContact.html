@@ -1,0 +1,50 @@
+<template>
+        <lightning-card title="Custom Lookup in LWC For Contact" icon-name="custom:custom64">
+            
+            <lightning-layout vertical-align="center">
+                <lightning-layout-item padding="around-small">
+                    <c-custom-lookup 
+                                iconname="standard:account" 
+                                object-name="Account"
+                                searchfield="Name"
+                                onselectedrec={getRecordId}></c-custom-lookup>
+                </lightning-layout-item>
+                <lightning-layout-item padding="around-small">
+                    <lightning-input value={lastName} label="Last Name" name="lName" required
+                                     onchange={handleNameChange} ></lightning-input>
+                </lightning-layout-item>
+
+            </lightning-layout>
+            <lightning-layout vertical-align="center">
+                <lightning-layout-item padding="around-small">
+                    <lightning-input label="Phone" name="Phone" required ></lightning-input>
+                </lightning-layout-item>
+                <lightning-layout-item padding="around-small">
+                    <lightning-input value={firstName} name="fName" label="First Name" required
+                                     onchange={handleNameChange} ></lightning-input>
+                </lightning-layout-item>
+
+            </lightning-layout>
+            <lightning-layout vertical-align="center">
+                <lightning-layout-item padding="around-small">
+                    <lightning-input label="Title" name="Title" required ></lightning-input>
+                </lightning-layout-item>
+                <lightning-layout-item padding="around-small">
+                    <lightning-input value={lastName} name="Email" label="Email" required
+                                     onchange={handleNameChange} ></lightning-input>
+                </lightning-layout-item>
+
+            </lightning-layout>
+            <lightning-layout vertical-align="center">
+                <lightning-layout-item padding="around-small">
+                    <lightning-button variant="brand" label="Create Contact" 
+                        onclick={createContact} ></lightning-button>
+                </lightning-layout-item>
+                <lightning-layout-item padding="around-small">
+                    <lightning-button variant="brand" label="Navigate Contact" 
+                        onclick={navigationDemo} ></lightning-button>
+                </lightning-layout-item>
+            </lightning-layout>
+        </lightning-card>
+        
+    </template>

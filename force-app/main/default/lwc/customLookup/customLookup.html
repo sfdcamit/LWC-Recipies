@@ -1,0 +1,43 @@
+<template>
+    
+        <template if:false={selectedRecord}>
+            <div class="slds-p-around_x-small">
+                <c-search-component onchange={handleOnchange} ></c-search-component>
+             </div>
+        </template>
+            <div class="slds-p-around_x-small">
+                <template if:true={error}>
+                    <template if:true={error.details}>
+                        <template if:true={error.details.body}>
+                            {error.details.body.message}
+                        </template>
+                    </template>
+                </template>
+            </div>
+                <div>
+                    <template if:false={selectedRecord}>
+                        <template if:true={records}>
+                            <template for:each={records} for:item="record">
+                                <c-record-list key={record.Id} record={record} onselect={handleSelect} 
+                                            iconname={iconname} fieldname={searchfield} >
+                                </c-record-list>
+                            </template>
+                        </template>
+                    </template>
+                    <template if:false={selectedRecord}>
+                        
+                    </template>
+                </div>
+                <div class="slds-p-around_x-small">
+                    <template if:true={selectedRecord}>
+                        
+                        <lightning-layout>
+                            <lightning-layout-item >
+                                <lightning-pill label={selectedRecord.Name} onremove={handleRemove} >
+                                    <lightning-icon icon-name={iconname} ></lightning-icon>
+                                </lightning-pill>
+                            </lightning-layout-item>
+                        </lightning-layout>
+                    </template>
+            </div>
+</template>
