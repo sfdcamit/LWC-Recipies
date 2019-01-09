@@ -6,7 +6,7 @@ export default class SearchComponent extends LightningElement {
     handleChange(event){
         /* eslint-disable no-console */
         //console.log('Search Event Started ');
-        const searchKey = event.target.value;
+        const searchKey = "test message";
         /* eslint-disable no-console */
         event.preventDefault();
         const searchEvent = new CustomEvent(

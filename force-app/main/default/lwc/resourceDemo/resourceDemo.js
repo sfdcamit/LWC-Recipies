@@ -26,6 +26,6 @@ export default class ResourceDemo extends LightningElement {
     /* eslint-disable no-console */
     //console.log(this.propertyOrFunction);
     showProp(){
-        console.log(' Records ', this.propertyOrFunction.data.records.records[0].id);
+        console.log(' Records ', this.propertyOrFunction.data.records.records);
     }
 }

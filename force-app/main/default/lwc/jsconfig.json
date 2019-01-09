@@ -30,6 +30,9 @@
             "c/custom-lookup": [
                 "customLookup/customLookup.js"
             ],
+            "c/design-attribute": [
+                "designAttribute/designAttribute.js"
+            ],
             "c/error-pannel": [
                 "errorPannel/errorPannel.js"
             ],

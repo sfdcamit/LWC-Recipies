@@ -11,7 +11,7 @@ import PHONE_FIELD from '@salesforce/schema/Contact.Phone';
 
 import { createRecord } from 'lightning/uiRecordApi';
 import { NavigationMixin } from 'lightning/navigation';
-export default class NewContact extends LightningElement {
+export default class NewContact extends NavigationMixin (LightningElement) {
     @track accountId;
     @track lastName;
     @track firstName;
@@ -94,6 +94,9 @@ export default class NewContact extends LightningElement {
                 objectApiName: 'Contact',
                 actionName: 'view',
             },
+            state : {
+                "recordId" : '0039A000002uUDeQAM'
+            }
         });
     }
 

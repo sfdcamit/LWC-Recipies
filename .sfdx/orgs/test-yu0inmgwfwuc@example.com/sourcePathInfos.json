@@ -63,9 +63,9 @@
             "sourcePath": "c:\\Users\\amitsingh4\\Desktop\\Lightning Web Components\\LightningWeb\\force-app\\main\\default\\lwc",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1546850563593,
-            "changeTime": 1546850563593,
-            "contentHash": "fcfa3a1c346f01b17617937ab140bc40d1f42f2c",
+            "modifiedTime": 1547012344758,
+            "changeTime": 1547012344758,
+            "contentHash": "581954a411f3e76f8200f3ecd04fc0e69f8c7e2f",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false
@@ -192,9 +192,9 @@
             "sourcePath": "c:\\Users\\amitsingh4\\Desktop\\Lightning Web Components\\LightningWeb",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1546511281364,
-            "changeTime": 1546511281364,
-            "contentHash": "b306bbb13baa3e589c52efcef4bffa35fdfd4043",
+            "modifiedTime": 1546915954200,
+            "changeTime": 1546915954200,
+            "contentHash": "582e99e81f36c4fd8b37939550b6fe4ad042b3da",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": true
@@ -569,10 +569,10 @@
         {
             "sourcePath": "c:\\Users\\amitsingh4\\Desktop\\Lightning Web Components\\LightningWeb\\force-app\\main\\default\\lwc\\searchComponent\\searchComponent.js",
             "isDirectory": false,
-            "size": 561,
-            "modifiedTime": 1545214960254,
-            "changeTime": 1545214960254,
-            "contentHash": "28cc84466294f21373a4202f281945ce891c5a6c",
+            "size": 557,
+            "modifiedTime": 1547010352420,
+            "changeTime": 1547010352420,
+            "contentHash": "ab3cc306effc8a83a44b56d9aa2949998ce6f3e0",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -582,10 +582,10 @@
         {
             "sourcePath": "c:\\Users\\amitsingh4\\Desktop\\Lightning Web Components\\LightningWeb\\force-app\\main\\default\\lwc\\searchComponent\\searchComponent.js-meta.xml",
             "isDirectory": false,
-            "size": 230,
-            "modifiedTime": 1545212562252,
-            "changeTime": 1545212562252,
-            "contentHash": "aef490f1f2143f468cd18594022a9086eaf1efb5",
+            "size": 234,
+            "modifiedTime": 1547010577707,
+            "changeTime": 1547010577707,
+            "contentHash": "37193d2c332ab84c7e47d9fedb4d399bfdcf6af7",
             "isMetadataFile": true,
             "state": "u"
         }
@@ -1282,14 +1282,14 @@
     [
         "c:\\Users\\amitsingh4\\Desktop\\Lightning Web Components\\LightningWeb\\force-app\\main\\default\\lwc\\newContact\\newContact.js",
         {
+            "state": "u",
             "sourcePath": "c:\\Users\\amitsingh4\\Desktop\\Lightning Web Components\\LightningWeb\\force-app\\main\\default\\lwc\\newContact\\newContact.js",
             "isDirectory": false,
-            "size": 3402,
-            "modifiedTime": 1546508665582,
-            "changeTime": 1546508665582,
-            "contentHash": "1daac5b02d0c323f4ca667faddef323e044c17bc",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 3506,
+            "modifiedTime": 1547017943524,
+            "changeTime": 1547017943524,
+            "contentHash": "7fa5eedd76103fd0ac152a7a8aac345421623dc3"
         }
     ],
     [
@@ -1451,14 +1451,14 @@
     [
         "c:\\Users\\amitsingh4\\Desktop\\Lightning Web Components\\LightningWeb\\force-app\\main\\default\\lwc\\resourceDemo\\resourceDemo.js",
         {
-            "state": "u",
             "sourcePath": "c:\\Users\\amitsingh4\\Desktop\\Lightning Web Components\\LightningWeb\\force-app\\main\\default\\lwc\\resourceDemo\\resourceDemo.js",
             "isDirectory": false,
+            "size": 981,
+            "modifiedTime": 1546916090461,
+            "changeTime": 1546916090461,
+            "contentHash": "bb63fe34b9d2bb77191b6feeea4819cce8a021c7",
             "isMetadataFile": false,
-            "size": 987,
-            "modifiedTime": 1546856497736,
-            "changeTime": 1546856497736,
-            "contentHash": "ce0f0a77454194ed9898f330a48be893a23cb184"
+            "state": "u"
         }
     ],
     [
@@ -1484,6 +1484,58 @@
             "changeTime": 1546853505418,
             "contentHash": "15288e7e066dc2f10cff49194a510a626d313ef7",
             "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "c:\\Users\\amitsingh4\\Desktop\\Lightning Web Components\\LightningWeb\\force-app\\main\\default\\lwc\\designAttribute",
+        {
+            "sourcePath": "c:\\Users\\amitsingh4\\Desktop\\Lightning Web Components\\LightningWeb\\force-app\\main\\default\\lwc\\designAttribute",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1547012344776,
+            "changeTime": 1547012344776,
+            "contentHash": "97509b8ae0443aabf9f5226559f02be3f0d4ec7e",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "c:\\Users\\amitsingh4\\Desktop\\Lightning Web Components\\LightningWeb\\force-app\\main\\default\\lwc\\designAttribute\\designAttribute.html",
+        {
+            "sourcePath": "c:\\Users\\amitsingh4\\Desktop\\Lightning Web Components\\LightningWeb\\force-app\\main\\default\\lwc\\designAttribute\\designAttribute.html",
+            "isDirectory": false,
+            "size": 177,
+            "modifiedTime": 1547013630554,
+            "changeTime": 1547013630554,
+            "contentHash": "c26adf7b6c496f611fea6b4b790c6811122ef780",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "c:\\Users\\amitsingh4\\Desktop\\Lightning Web Components\\LightningWeb\\force-app\\main\\default\\lwc\\designAttribute\\designAttribute.js",
+        {
+            "sourcePath": "c:\\Users\\amitsingh4\\Desktop\\Lightning Web Components\\LightningWeb\\force-app\\main\\default\\lwc\\designAttribute\\designAttribute.js",
+            "isDirectory": false,
+            "size": 148,
+            "modifiedTime": 1547013625407,
+            "changeTime": 1547013625407,
+            "contentHash": "9215f3d3b2ddd4bf173bd7e8646f3269d340c314",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "c:\\Users\\amitsingh4\\Desktop\\Lightning Web Components\\LightningWeb\\force-app\\main\\default\\lwc\\designAttribute\\designAttribute.js-meta.xml",
+        {
+            "sourcePath": "c:\\Users\\amitsingh4\\Desktop\\Lightning Web Components\\LightningWeb\\force-app\\main\\default\\lwc\\designAttribute\\designAttribute.js-meta.xml",
+            "isDirectory": false,
+            "size": 1160,
+            "modifiedTime": 1547017127299,
+            "changeTime": 1547017127299,
+            "contentHash": "eda6ee9a1e80c7bd1a401e71f14438960899476e",
+            "isMetadataFile": true,
             "state": "u"
         }
     ]
