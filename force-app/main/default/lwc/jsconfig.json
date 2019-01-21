@@ -48,6 +48,9 @@
             "c/new-contact": [
                 "newContact/newContact.js"
             ],
+            "c/page-reference-demo": [
+                "pageReferenceDemo/pageReferenceDemo.js"
+            ],
             "c/record-list": [
                 "recordList/recordList.js"
             ],

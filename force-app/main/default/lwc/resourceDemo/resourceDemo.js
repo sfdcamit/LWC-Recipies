@@ -1,7 +1,7 @@
 import { LightningElement, wire } from 'lwc';
 
-import salesforceDesc from '@salesforce/label/c.salesforceDesc';
-import trailheadlogo from '@salesforce/resourceUrl/trailheadlogo';
+//import salesforceDesc from '@salesforce/label/c.salesforceDesc';
+//import trailheadlogo from '@salesforce/resourceUrl/trailheadlogo';
 import userId from '@salesforce/user/Id';
 import lang from '@salesforce/i18n/lang';
 import locale from '@salesforce/i18n/locale';
@@ -12,8 +12,6 @@ import { getListUi } from 'lightning/uiListApi';
 
 export default class ResourceDemo extends LightningElement {
     label = {
-        salesforceDesc,
-        trailheadlogo,
         userId,
         lang,
         locale,
