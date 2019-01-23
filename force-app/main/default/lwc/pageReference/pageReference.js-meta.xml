@@ -13,15 +13,17 @@
 
     <targetConfigs>
         <targetConfig targets="lightning__RecordPage">
-            <property name="Greet" type="String" />
+            <property name="Greet" type="String"  />
             <objects>
                 <object>Account</object>
                 <object>Contact</object>
             </objects>
         </targetConfig>
         <targetConfig targets="lightningCommunity__Default">
+            <property name="heading" type="String"  />
+        </targetConfig>
+        <targetConfig targets="lightning__AppPage">
             <property name="heading" type="String" />
-
         </targetConfig>
     </targetConfigs>
 
