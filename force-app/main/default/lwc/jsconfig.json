@@ -39,6 +39,9 @@
             "c/hellow-world": [
                 "hellowWorld/hellowWorld.js"
             ],
+            "c/lwc-resource-demo": [
+                "lwcResourceDemo/lwcResourceDemo.js"
+            ],
             "c/my-collection-lwc": [
                 "myCollectionLWC/myCollectionLWC.js"
             ],

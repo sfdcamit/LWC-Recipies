@@ -1,11 +1,17 @@
 <template>
     <lightning-card title="Resource Demo" icon-name="custom:custom66">
          <lightning-layout vertical-align="center" multiple-rows="true" >
-            <lightning-layout-item padding="around-small" size="6">
+            <lightning-layout-item padding="around-small" size="2">
                 <div class="slds-m-around_medium">
                     <img src={einsteinUrl} alt="Einstein logo">
-                 
-                <p>
+                </div>
+            </lightning-layout-item>
+            <lightning-layout-item padding="around-small" size="2">
+                <div class="slds-m-around_medium">
+                    <img src={img} alt="Test Image">
+                </div>
+            </lightning-layout-item>
+                <!--<p>
                     {label.salesforceDesc}
                 </p>
                     <img src={img} alt="trailhead logo" />
@@ -24,11 +30,8 @@
                 <p>
                     {label.Account_Object.objectApiName} <br/>
                     {label.Account_Object.Name}
-                </p>
-
-                <lightning-button label="Show Prop" onclick={showProp} ></lightning-button>
-            </div>
-            </lightning-layout-item>
+                </p>-->
+                <!-- <lightning-button label="Show Prop" onclick={showProp} ></lightning-button>-->
             
          </lightning-layout>
     </lightning-card>

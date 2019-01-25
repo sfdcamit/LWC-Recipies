@@ -12,7 +12,7 @@ import { getListUi } from 'lightning/uiListApi';
 import trailheadCharacters from '@salesforce/resourceUrl/trailhead_characters';
 
 export default class ResourceDemo extends LightningElement {
-    @track img = trailheadCharacters+'/1.jpg';
+    @track img =  trailheadCharacters + '/img/1.jpg';
     einsteinUrl = trailheadCharacters + '/img/einstein.png';
     label = {
         userId,
